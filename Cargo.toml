@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "tauri-app",
+    "backend",
+    "common",
+]
+exclude = [
+    "frontend"
+]

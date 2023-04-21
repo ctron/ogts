@@ -1,0 +1,12 @@
+[package]
+name = "ogts-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+log = "0.4"
+sqlx = { version = "0.6", features = ["migrate", "sqlite", "chrono"] }
+tokio = { version = "1" }
+
+ogts-common = { path = "../common" }
